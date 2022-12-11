@@ -1,0 +1,13 @@
+a,
+li {
+  text-decoration: none;
+  cursor: pointer;
+  list-style-type: none;
+  outline: none;
+  color: white;
+}
+
+a.image {
+  font-weight: 700;
+  color: rgb(202, 212, 60);
+}

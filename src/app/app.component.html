@@ -1,0 +1,13 @@
+<h1 class="page-title">Dynamic Nav Bar</h1>
+
+<app-nav-bar>
+  <app-nav-logo [path]="home">Company AB</app-nav-logo>
+  <app-nav-content>
+    <app-nav-link [path]="home">Home</app-nav-link>
+    <app-nav-link [path]="about">About</app-nav-link>
+    <app-nav-link [path]="history">History</app-nav-link>
+  </app-nav-content>
+  <app-nav-contact [path]="contact">Contact Us</app-nav-contact>
+</app-nav-bar>
+
+<router-outlet></router-outlet>

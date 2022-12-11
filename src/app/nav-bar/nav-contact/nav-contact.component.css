@@ -1,0 +1,14 @@
+a,
+li {
+  text-decoration: none;
+  cursor: pointer;
+  list-style-type: none;
+  outline: none;
+  color: white;
+}
+
+a.sign-in {
+  padding: 0.5rem 2rem;
+  border-radius: 1.5rem;
+  background-color: teal;
+}
